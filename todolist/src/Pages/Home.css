@@ -1,0 +1,109 @@
+.main-content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #8758FF;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.box {
+  width: 50%;
+  height: 60%;
+  border: 2px solid black;
+  background-color: #1E123B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.pesquisa {
+  width: 40%;
+  height: 10%;
+  border: 2px solid white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 45%;
+}
+
+.Tarefa {
+  width: 88%;
+  height: 35%;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listatarefas {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.caixa-de-selecao {
+  height: 62%;
+  width: 5%;
+  background-color: #BDA4FF;
+  border: 2px solid #8758FF;
+  margin-left: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botao-delete {
+  height: 62%;
+  width: 35%;
+  border: 2px solid black;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botao-editar {
+  height: 62%;
+  width: 35%;
+  border: 2px solid black;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.campo-de-botao {
+  height: 100%;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 3%;
+}
+
+.botao-nova-tarefa {
+  width: 10%;
+  height: 6%;
+  background-color: #6C45CE;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-left: 40%;
+  margin-top: 5px;
+}
