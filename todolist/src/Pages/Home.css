@@ -20,7 +20,6 @@
 .box {
   width: 50%;
   height: 60%;
-  border: 2px solid black;
   background-color: #1E123B;
   display: flex;
   flex-direction: column;
@@ -59,34 +58,38 @@
 }
 
 .caixa-de-selecao {
-  height: 62%;
+  height: 60%;
   width: 5%;
-  background-color: #BDA4FF;
-  border: 2px solid #8758FF;
   margin-left: 3%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border: 2px solid #333;
+  appearance: none;
+  background-color: #BDA4FF;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.caixa-de-selecao.checked {
+  background-color: #1E123B;
 }
 
 .botao-delete {
-  height: 62%;
+  height: 60%;
   width: 35%;
-  border: 2px solid black;
   background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 3px;
 }
 
 .botao-editar {
-  height: 62%;
+  height: 60%;
   width: 35%;
-  border: 2px solid black;
   background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 3px;
 }
 
 .campo-de-botao {
@@ -106,4 +109,24 @@
   border-radius: 5px;
   margin-left: 40%;
   margin-top: 5px;
+}
+
+.ContentModal {
+  height: 40%;
+  width: 70%;
+  border: 2px solid #FCFCFC;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #fcfcfc;
+  font-size: 16px;
+}
+
+.buttonModal {
+  height: 12%;
+  width: 35%;
+  background-color: #6C45CE;
+  border: 2px solid #FCFCFC;
+  border-radius: 7px;
+  margin-bottom: 3%;
+  margin-top: 4%;
 }
