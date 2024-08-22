@@ -1,9 +1,11 @@
-
-import Form from './Pages/Home';
+import './App.css';
+import Home from '../src/Pages/Home/Home.jsx';
 
 function App() {
   return (
-    <Form/>
+    <main>
+      <Home/>
+    </main>
   );
 }
 
